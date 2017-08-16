@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_FrNdsXW6Eee_Rfa57IYd-A" dataPackage="_FrNdsnW6Eee_Rfa57IYd-A"/>
+  <TalendMetadata:GenericPackage xmi:id="_FrNdsnW6Eee_Rfa57IYd-A" dataManager="_FrNdsXW6Eee_Rfa57IYd-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_FrNds3W6Eee_Rfa57IYd-A" id="_FrM2oHW6Eee_Rfa57IYd-A" label="EMP">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdtHW6Eee_Rfa57IYd-A" name="EMPNO" label="EMPNO" length="4" sourceType="DEC" talendType="id_BigDecimal" key="true" nullable="false">
+        <initialValue xmi:id="_FrNdtXW6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdtnW6Eee_Rfa57IYd-A" name="ENAME" label="ENAME" length="10" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_FrNdt3W6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNduHW6Eee_Rfa57IYd-A" name="JOB" label="JOB" length="9" sourceType="VARCHAR2" talendType="id_String">
+        <initialValue xmi:id="_FrNduXW6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdunW6Eee_Rfa57IYd-A" name="MGR" label="MGR" length="4" sourceType="DEC" talendType="id_BigDecimal">
+        <initialValue xmi:id="_FrNdu3W6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdvHW6Eee_Rfa57IYd-A" name="HIREDATE" label="HIREDATE" length="7" sourceType="DATE" talendType="id_Date">
+        <initialValue xmi:id="_FrNdvXW6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdvnW6Eee_Rfa57IYd-A" name="SAL" label="SAL" length="7" sourceType="DEC" talendType="id_BigDecimal">
+        <initialValue xmi:id="_FrNdv3W6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdwHW6Eee_Rfa57IYd-A" name="COMM" label="COMM" length="7" sourceType="DEC" talendType="id_BigDecimal">
+        <initialValue xmi:id="_FrNdwXW6Eee_Rfa57IYd-A"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FrNdwnW6Eee_Rfa57IYd-A" name="DEPTNO" label="DEPTNO" length="2" sourceType="DEC" talendType="id_BigDecimal">
+        <initialValue xmi:id="_FrNdw3W6Eee_Rfa57IYd-A"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

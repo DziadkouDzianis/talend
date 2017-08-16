@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_TIFfoHOjEee_Rfa57IYd-A" name="analisys" creationDate="2017-07-28T17:44:45.849+0300" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/scott_0.1.item#_V7IEcHOiEee_Rfa57IYd-A"/>
+    <taggedValue xmi:id="_TIFfoXOjEee_Rfa57IYd-A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_TIFfonOjEee_Rfa57IYd-A" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_TIFfo3OjEee_Rfa57IYd-A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_TIFfpHOjEee_Rfa57IYd-A" tag="Description" value=""/>
+    <taggedValue xmi:id="_TIFfpXOjEee_Rfa57IYd-A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JmmF0XOkEee_Rfa57IYd-A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_JmmF0nOkEee_Rfa57IYd-A" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_JmmF03OkEee_Rfa57IYd-A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_Jmn7AHOkEee_Rfa57IYd-A" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_TIFfpnOjEee_Rfa57IYd-A">
+      <connection href="../../metadata/connections/scott_0.1.item#_3NnOQHOhEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0oHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0pHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0qHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0rHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0sHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0tHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0uHOjEee_Rfa57IYd-A"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_Vzv0vHOjEee_Rfa57IYd-A"/>
+    </context>
+    <results xmi:id="_TIFfp3OjEee_Rfa57IYd-A">
+      <resultMetadata xmi:id="_TIFfqHOjEee_Rfa57IYd-A"/>
+    </results>
+    <parameters xmi:id="_TIFfqXOjEee_Rfa57IYd-A" dataFilter="_Jmn7AXOkEee_Rfa57IYd-A" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_JmmF0HOkEee_Rfa57IYd-A" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_Jmn7AXOkEee_Rfa57IYd-A" name="analisys">
+    <ranges xmi:id="_JmoiEHOkEee_Rfa57IYd-A">
+      <expressions xmi:id="_JmoiEXOkEee_Rfa57IYd-A">
+        <expression xsi:type="relational:TdExpression" xmi:id="_JmoiEnOkEee_Rfa57IYd-A" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

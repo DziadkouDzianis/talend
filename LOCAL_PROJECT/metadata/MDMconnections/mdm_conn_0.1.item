@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:org.talend.cwm.xml="http://www.talend.org/cwm/resource/xml/2010">
+  <TalendMetadata:MDMConnection xmi:id="_YOOT0HXkEee_Rfa57IYd-A" name="mdm_conn" label="mdm_conn" dataPackage="_WAMPkHagEee_Rfa57IYd-A" version="s60" Username="user" Password="ujQfjOu3mq4=" Datamodel="newModel" Datacluster="newModel" serverUrl="http://localhost:8180/talendmdm/services/soap">
+    <schemas xmi:id="_TdrPgHagEee_Rfa57IYd-A" label="EMPOut" LoopLimit="50" conceptType="OUTPUT">
+      <root xmi:id="_Vc2R8HagEee_Rfa57IYd-A" XMLPath="/EMP" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+      <root xmi:id="_Vc2R8XagEee_Rfa57IYd-A" XMLPath="/EMP/ENAME" RelatedColumn="ENAME" Attribute="main" Order="3" Type="id_String"/>
+      <root xmi:id="_Vc2R8nagEee_Rfa57IYd-A" XMLPath="/EMP/JOB" RelatedColumn="JOB" Attribute="main" Order="4" Type="id_String"/>
+      <root xmi:id="_Vc2R83agEee_Rfa57IYd-A" XMLPath="/EMP/MGR" RelatedColumn="MGR" Attribute="main" Order="5" Type="id_String"/>
+      <root xmi:id="_Vc2R9HagEee_Rfa57IYd-A" XMLPath="/EMP/HIREDATE" RelatedColumn="HIREDATE" Attribute="main" Order="6" Type="id_Date"/>
+      <root xmi:id="_Vc2R9XagEee_Rfa57IYd-A" XMLPath="/EMP/SAL" RelatedColumn="SAL" Attribute="main" Order="7" Type="id_Integer"/>
+      <root xmi:id="_Vc2R9nagEee_Rfa57IYd-A" XMLPath="/EMP/COMM" RelatedColumn="COMM" Attribute="main" Order="8" Type="id_String"/>
+      <root xmi:id="_Vc2R93agEee_Rfa57IYd-A" XMLPath="/EMP/DEPTNO" RelatedColumn="DEPTNO" Attribute="main" Order="9" Type="id_Integer"/>
+      <loop xmi:id="_Vc2R-HagEee_Rfa57IYd-A" XMLPath="/EMP/EMPId" RelatedColumn="EMPId" Attribute="main" Order="2" Type="id_Integer"/>
+    </schemas>
+  </TalendMetadata:MDMConnection>
+  <org.talend.cwm.xml:TdXmlSchema xmi:id="_WAMPkHagEee_Rfa57IYd-A" name="newModel" dataManager="_YOOT0HXkEee_Rfa57IYd-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WAMPkXagEee_Rfa57IYd-A" id="_VcqrwHagEee_Rfa57IYd-A" label="EMPOut">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPknagEee_Rfa57IYd-A" label="EMPId" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPk3agEee_Rfa57IYd-A" label="ENAME" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPlHagEee_Rfa57IYd-A" label="JOB" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPlXagEee_Rfa57IYd-A" label="MGR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPlnagEee_Rfa57IYd-A" label="HIREDATE" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPl3agEee_Rfa57IYd-A" label="SAL" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPmHagEee_Rfa57IYd-A" label="COMM" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WAMPmXagEee_Rfa57IYd-A" label="DEPTNO" talendType="id_Integer"/>
+    </ownedElement>
+  </org.talend.cwm.xml:TdXmlSchema>
+</xmi:XMI>

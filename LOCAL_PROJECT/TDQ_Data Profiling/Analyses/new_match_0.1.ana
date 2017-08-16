@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_VC74MHOiEee_Rfa57IYd-A" name="new_match" creationDate="2017-07-28T17:37:49.220+0300" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/scott_0.1.item#_V7IEcHOiEee_Rfa57IYd-A"/>
+  <taggedValue xmi:id="_VC74MXOiEee_Rfa57IYd-A" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_VC74MnOiEee_Rfa57IYd-A" tag="Status" value="testing"/>
+  <taggedValue xmi:id="_VC74M3OiEee_Rfa57IYd-A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_VC74NHOiEee_Rfa57IYd-A" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_VC74NXOiEee_Rfa57IYd-A" tag="Description" value=""/>
+  <taggedValue xmi:id="_VC74NnOiEee_Rfa57IYd-A" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_V7GPQXOiEee_Rfa57IYd-A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_VC74N3OiEee_Rfa57IYd-A">
+    <connection href="../../metadata/connections/scott_0.1.item#_3NnOQHOhEee_Rfa57IYd-A"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_P4_i4HOiEee_Rfa57IYd-A"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_P4_i5HOiEee_Rfa57IYd-A"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/scott_0.1.item#_P4_i6HOiEee_Rfa57IYd-A"/>
+  </context>
+  <results xmi:id="_VC74OHOiEee_Rfa57IYd-A">
+    <resultMetadata xmi:id="_VC74OXOiEee_Rfa57IYd-A"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_VC74OnOiEee_Rfa57IYd-A"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_VC74O3OiEee_Rfa57IYd-A">
+      <builtInMatchRuleDefinition xmi:id="_VC74PHOiEee_Rfa57IYd-A">
+        <matchRules xmi:id="_VYRPAHOiEee_Rfa57IYd-A" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_VC74PXOiEee_Rfa57IYd-A" analysisType="Match Analysis"/>
+  <contextType xmi:id="_V7GPQHOiEee_Rfa57IYd-A" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

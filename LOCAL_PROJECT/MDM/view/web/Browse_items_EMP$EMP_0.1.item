@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_u4aLwXXvEee_Rfa57IYd-A" name="Browse_items_EMP#EMP" description="newEmp" timestamp="1501507333280" digestValue="c211459e50fb18cad0a90560cade47dc" lastServerName="myServer" transformerPK="">
+  <searchableBusinessElements>EMP/EMPId</searchableBusinessElements>
+  <searchableBusinessElements>EMP/ENAME</searchableBusinessElements>
+  <searchableBusinessElements>EMP/JOB</searchableBusinessElements>
+  <searchableBusinessElements>EMP/MGR</searchableBusinessElements>
+  <searchableBusinessElements>EMP/HIREDATE</searchableBusinessElements>
+  <searchableBusinessElements>EMP/SAL</searchableBusinessElements>
+  <searchableBusinessElements>EMP/COMM</searchableBusinessElements>
+  <searchableBusinessElements>EMP/DEPTNO</searchableBusinessElements>
+  <viewableBusinessElements>EMP/EMPId</viewableBusinessElements>
+  <viewableBusinessElements>EMP/ENAME</viewableBusinessElements>
+  <viewableBusinessElements>EMP/JOB</viewableBusinessElements>
+  <viewableBusinessElements>EMP/MGR</viewableBusinessElements>
+  <viewableBusinessElements>EMP/HIREDATE</viewableBusinessElements>
+  <viewableBusinessElements>EMP/SAL</viewableBusinessElements>
+  <viewableBusinessElements>EMP/COMM</viewableBusinessElements>
+  <viewableBusinessElements>EMP/DEPTNO</viewableBusinessElements>
+  <isTransformerActive xmi:id="_2erZkHXvEee_Rfa57IYd-A"/>
+</mdmserverobject:WSViewE>

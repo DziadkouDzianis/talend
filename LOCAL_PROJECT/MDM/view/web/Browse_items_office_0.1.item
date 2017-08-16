@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_AmY9cHbBEee_Rfa57IYd-A" name="Browse_items_office" description="office" timestamp="1501598607254" digestValue="2554d0179e32c611493b36a7fc122293" lastServerName="myServer" transformerPK="">
+  <searchableBusinessElements>office/officeId</searchableBusinessElements>
+  <searchableBusinessElements>office/office_name</searchableBusinessElements>
+  <searchableBusinessElements>office/city</searchableBusinessElements>
+  <searchableBusinessElements>office/country</searchableBusinessElements>
+  <searchableBusinessElements>office/address</searchableBusinessElements>
+  <searchableBusinessElements>office/zip_code</searchableBusinessElements>
+  <viewableBusinessElements>office/officeId</viewableBusinessElements>
+  <viewableBusinessElements>office/office_name</viewableBusinessElements>
+  <viewableBusinessElements>office/city</viewableBusinessElements>
+  <viewableBusinessElements>office/country</viewableBusinessElements>
+  <viewableBusinessElements>office/address</viewableBusinessElements>
+  <viewableBusinessElements>office/zip_code</viewableBusinessElements>
+  <isTransformerActive xmi:id="_XX0fIHbHEee_Rfa57IYd-A"/>
+</mdmserverobject:WSViewE>

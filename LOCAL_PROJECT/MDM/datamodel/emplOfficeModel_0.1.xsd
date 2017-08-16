@@ -1,0 +1,45 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>  
+  <xsd:element name="employee"> 
+    <xsd:complexType> 
+      <xsd:all> 
+        <xsd:element name="employeeId" type="AUTO_INCREMENT"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="name" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="email" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="officeId" type="xsd:string"> 
+          <xsd:annotation> 
+            <xsd:appinfo source="X_ForeignKey">office/officeId</xsd:appinfo>  
+            <xsd:appinfo source="X_ForeignKey_NotSep">true</xsd:appinfo>  
+            <xsd:appinfo source="X_ForeignKeyInfo">office/officeId</xsd:appinfo>  
+            <xsd:appinfo source="X_Retrieve_FKinfos">true</xsd:appinfo> 
+          </xsd:annotation> 
+        </xsd:element>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="start_date" type="xsd:date"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="primary_city" type="xsd:string"/> 
+      </xsd:all> 
+    </xsd:complexType>  
+    <xsd:unique name="employee"> 
+      <xsd:selector xpath="."/>   
+            <xsd:field xpath="employeeId"/>
+        </xsd:unique> 
+  </xsd:element>  
+  <xsd:element name="office"> 
+    <xsd:complexType> 
+      <xsd:all> 
+        <xsd:element name="officeId" type="xsd:integer"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="office_name" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="city" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="country" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="address" type="xsd:string"/>  
+        <xsd:element maxOccurs="1" minOccurs="1" name="zip_code" type="xsd:integer"/> 
+      </xsd:all> 
+    </xsd:complexType>  
+    <xsd:unique name="office"> 
+      <xsd:selector xpath="."/>  
+      <xsd:field xpath="officeId"/> 
+    </xsd:unique> 
+  </xsd:element>  
+  <xsd:simpleType name="AUTO_INCREMENT"> 
+    <xsd:restriction base="xsd:string"/> 
+  </xsd:simpleType>   
+</xsd:schema>

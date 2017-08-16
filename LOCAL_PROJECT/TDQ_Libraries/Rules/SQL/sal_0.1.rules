@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:WhereRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_tPGGYHW0Eee_Rfa57IYd-A" name="sal" criticalityLevel="1" whereExpression="sal > 1000">
+  <taggedValue xmi:id="_tPGGYXW0Eee_Rfa57IYd-A" tag="Status" value="testing"/>
+  <taggedValue xmi:id="_tPGGYnW0Eee_Rfa57IYd-A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_tPGGY3W0Eee_Rfa57IYd-A" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_tPGGZHW0Eee_Rfa57IYd-A" tag="Description" value=""/>
+  <taggedValue xmi:id="_tPGGZXW0Eee_Rfa57IYd-A" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_tPGGZnW0Eee_Rfa57IYd-A" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+  <sqlGenericExpression xmi:id="_tPGGZ3W0Eee_Rfa57IYd-A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+</dataquality.rules:WhereRule>

@@ -1,0 +1,21 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
+    <xsd:element name="EMP">
+<xsd:complexType>
+<xsd:all>
+<xsd:element maxOccurs="1" minOccurs="1" name="EMPId" type="xsd:integer"/>
+                <xsd:element maxOccurs="1" minOccurs="1" name="ENAME" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="1" name="JOB" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="MGR" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="HIREDATE" type="xsd:date"/>
+                <xsd:element maxOccurs="1" minOccurs="1" name="SAL" type="xsd:integer"/>
+                <xsd:element maxOccurs="1" minOccurs="0" name="COMM" type="xsd:string"/>
+                <xsd:element maxOccurs="1" minOccurs="1" name="DEPTNO" type="xsd:integer"/>
+            </xsd:all>
+</xsd:complexType>
+<xsd:unique name="EMP">
+<xsd:selector xpath="."/>
+            <xsd:field xpath="EMPId"/>
+        </xsd:unique>
+</xsd:element>
+</xsd:schema>
