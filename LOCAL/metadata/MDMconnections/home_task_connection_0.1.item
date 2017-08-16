@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:MDMConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_LDDD4XgREee38-5KVF9l7g" name="home_task_connection" label="home_task_connection" version="s60" ContextId="" contextName="Default" Username="administrator" Password="gYS5jltDdzLSfHIqaDxbXg==" Datamodel="UpdateReport" Datacluster="UpdateReport" serverUrl="http://localhost:8180/talendmdm/services/soap"/>

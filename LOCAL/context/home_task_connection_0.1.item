@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Fh1BkHgSEee38-5KVF9l7g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_Fh1BkXgSEee38-5KVF9l7g" comment="" name="home_task_connection_MDM_Username" prompt="home_task_connection_MDM_Username?" promptNeeded="false" type="id_String" value="administrator"/>
+  <contextParameter xmi:id="_Fh1BkngSEee38-5KVF9l7g" comment="" name="home_task_connection_MDM_Password" prompt="home_task_connection_MDM_Password?" promptNeeded="false" type="id_Password" value="gYS5jltDdzLSfHIqaDxbXg=="/>
+  <contextParameter xmi:id="_Fh1Bk3gSEee38-5KVF9l7g" comment="" name="home_task_connection_MDM_URL" prompt="home_task_connection_MDM_URL?" promptNeeded="false" type="id_String" value="http://localhost:8380/talendmdm/services/soap"/>
+</talendfile:ContextType>
